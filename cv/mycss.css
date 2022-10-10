@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(199, 214, 230);
+}
+.bac1{
+    
+    margin-left:15% ;    
+   
+
+}
+.bac11{
+    width: 30%;
+    float: left;
+    
+}
+.bac12{
+    width: 65%;
+    float: left;
+    font-size: large;
+    
+}
+table, th, td {
+     border: 1px solid black;
+     border-collapse: collapse;
+}
+.abc{
+    border: 4px solid black;
+}
