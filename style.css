@@ -231,7 +231,7 @@ button:hover{
 }
 .card{
     height: 365px;
-    width: 335px;
+    width: 300px;
     padding: 20px 35px;
     background: #191919;
     border-radius: 20px;
@@ -392,7 +392,7 @@ footer p:nth-child(2){
     color: rgb(255, 255, 255);
     text-align:justify;
     font-size: x-large;
-    padding-left: 80px;
+    padding-left: 40px;
     padding-top: 80px;
 
 }
