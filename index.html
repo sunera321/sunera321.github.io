@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio website </title>
@@ -86,6 +87,13 @@ nav ul li a:hover{
     transform: scale(1.2);
 }
 
+@media screen and(max-width:800px) {
+     th :nth-child(3){
+        display: none;
+     }
+
+    
+}
 </style>
 </head>
 
@@ -93,7 +101,7 @@ nav ul li a:hover{
     
     
     <div class="hero">
-        <nav>
+        <nav >
             <h2 class="logo">
                 portfo<span>lio</span></h2>
             <ul style="font-size:15px; width: 100%;" >
@@ -106,7 +114,7 @@ nav ul li a:hover{
                 <li> <a href="#" class="btn">Subscribe</a></li>
                 
             </ul>
-           
+          
             
         </nav>
         <section id="Home">
@@ -144,7 +152,7 @@ nav ul li a:hover{
     <section id="about"> 
 <section class="about">
         <div class="main">
-            <img src="mybac.jpg">
+            <img src="mybac.jpg" >
             <div class="about-text">
 
                 <h2>
@@ -266,6 +274,7 @@ nav ul li a:hover{
                 I Am Available For FreeLance
             </h3> 
             <div class="box">
+                <div class="card1">
                 <div class="card" style="background-color:black ;    border-radius: 20px;">
                      <i class="fa-solid fa-bars"></i>
                      <h5>
@@ -285,7 +294,9 @@ nav ul li a:hover{
 
                      
                 </div>
+                </div>
                 <div class="box">
+                    <div class="card2">
                     <div class="card"style="background-color:black ; border-radius: 20px;">
                         <i class="fa-solid fa-user"></i>
                          <h5>
@@ -305,7 +316,11 @@ nav ul li a:hover{
     
                          
                     </div>
+                    </div>
+                
                     <div class="box">
+                        <div class="card3">
+                        
                         <div class="card"style="background-color:black ;    border-radius: 20px;    border-radius: 20px;">
                             <i class="fa-solid fa-bell"></i>
                              <h5>
@@ -326,6 +341,7 @@ nav ul li a:hover{
         
                              
                         </div>
+                        </div>
                 
 
                 
@@ -335,8 +351,8 @@ nav ul li a:hover{
         </div>
     </div></div></div>
     </section>
-     <section id="education">
-        <div class="row text-dark" style="padding: 0%;padding-left: 0%;background: #1a1919;color: rgb(26, 25, 25);width: 100%;margin: 0%;height: 100%;padding-top: 0px;">
+     <section id="education" >
+        <div class="row text-dark" style="padding: 0%;padding-left: 0%;background: #1a1919;color: rgb(26, 25, 25);width: 100%;margin: 0%;height: 1500px;padding-top: 0px;">
             <div class="col-md-12 col-lg-11 col-xl-6 offset-lg-0 mx-auto p-4" data-bss-hover-animate="bounce" style="border-color: var(--bs-red);font-family: Alata, sans-serif;color: rgb(246,248,249);background: #242424;width: 100%;">
                 <div class="d-flex align-items-center align-items-md-start align-items-xl-center" style="padding-left: 50px;padding-top:50px; padding-bottom:50px;" data-aos="slide-right" data-aos-offset="10px" data-aos-delay="300" data-aos-once="true"><img src="assets/img/SL-Logo.png" width="87" height="125">
                     <div class="text-light" style="padding-left: 30px;width: 750px;font-size: 20px;font-family: Alata, sans-serif;color: #f9f6f6;">
@@ -383,48 +399,75 @@ nav ul li a:hover{
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</div>
 
     </section>  
-
     <section id="Contact Us">
         
    
-    <div class="contect-me">
-        <p style="font-size: 40px;">
-            CONTACT ME
-           </p>
-         <h5 style="font-size: 25px;">   
-            <div style="padding:10px;">Birthdate : 21/12/2001<br></div>
-            <div style="padding:10px;">Email : konara2021@gmail.com<br></div>
-            <div style="padding:10px;">Phone : (+94)8270611<br></div>
-            <div style="padding:10px;">Skype : sunera_konara<br></div>
-            <div style="padding:10px;">Address : 56/Rathwaththa/Ukuwelas<br></div>
-      </h5>
-      <br>
+        <div class="contect-me">
+            <p style="font-size: 40px;">
+                CONTACT ME
+               </p>
+             <h5 style="font-size: 25px;">   
+                <div style="padding:10px;">Birthdate : 21/12/2001<br></div>
+                <div style="padding:10px;">Email : konara2021@gmail.com<br></div>
+                <div style="padding:10px;">Phone : (+94)8270611<br></div>
+                <div style="padding:10px;">Skype : sunera_konara<br></div>
+                <div style="padding:10px;">Address : 56/Rathwaththa/Ukuwelas<br></div>
+          </h5>
+          <br>
+    
+           <button class="button-two" style="border-radius:30px;font-size: 10px;"> 
+            <a href="database/variables.html" target="_blank" style="border-radius:30px;font-size: 10px; font-size:15px;">
+                CONTACT   FORM
+            </a>
+           </button>
+           <small style="color:aliceblue ; padding-top: 10px; font-size: medium;">
+            fill the contact from and give me contact ditelse
+           </small>
+    
+    
+        </div>
+    </section>
+       
 
-       <button class="button-two" style="border-radius:30px;font-size: 10px;"> 
-        <a href="database/variables.html" target="_blank" style="border-radius:30px;font-size: 10px; font-size:15px;">
-            CONTACT   FORM
-        </a>
-       </button>
-       <small style="color:aliceblue ; padding-top: 10px; font-size: medium;">
-        fill the contact from and give me contact ditelse
-       </small>
-
-
-    </div>
-</section>
-
-    <footer class="footer" >
-        <table style="width:100% ;">
-            <tr><th style="padding-left: 40px;">About Us</th><th style="padding-left: 40px;">Skills</th><th style="padding-left: 40px;">Services</th><th style="padding-left: 40px;">Education</th></tr>
-            <tr><td style="padding-left: 40px;"><a href="#about" >Informotion</a></td ><td style="padding-left: 40px;" ><a href="#skills">Technical skills</a></td><td style="padding-left: 40px;"><a href="#Services">Web Development</a></td><td style="padding-left: 40px;"><a href="#education">Education</a></td></tr>
-            <tr><td style="padding-left: 40px;"><a href="#about">download CV</a></td><td style="padding-left: 40px;"><a href="#skills">My professional-skills</a></td> <td style="padding-left:40px;"><a href="#Services">Web Design</a></td><td style="padding-left: 40px;"><a href="#education">internship</a></td></tr>
-            <tr><td style="padding-left: 40px;" ></td><td></td><td style="padding-left: 40px; "><a href="#Services">Programming</a></td><td></td></tr>
+   <footer class="footerbottem"style="width:100% ; @media (max-width:1000px){display: inline;}" >
+       <!---- <table style="width:100% ;">
+            <tr><th style="padding-left: 40px;" class="t1">About Us</th><th style="padding-left: 40px;">Skills</th><th style="padding-left: 40px;">Services</th><th style="padding-left: 40px;">Education</th></tr>
+            <tr><td style="padding-left: 40px;" class="t2"><a href="#about" >Informotion</a></td ><td style="padding-left: 40px;" ><a href="#skills">Technical skills</a></td><td style="padding-left: 40px;"><a href="#Services">Web Development</a></td><td style="padding-left: 40px;"><a href="#education">Education</a></td></tr>
+            <tr><td style="padding-left: 40px;" class="t3"><a href="#about">download CV</a></td><td style="padding-left: 40px;"><a href="#skills">My professional-skills</a></td> <td style="padding-left:40px;"><a href="#Services">Web Design</a></td><td style="padding-left: 40px;"><a href="#education">internship</a></td></tr>
+            <tr><td style="padding-left: 40px;" class="t4"></td><td></td><td style="padding-left: 40px; "><a href="#Services">Programming</a></td><td></td></tr>
 
             
-        </table> 
-        <div class="social1" style="margin-top:50px; padding-left: 30%;">
+        </table>  -->
+        <div class="list" style="width:100% ;">
+        <ul>
+            <li style="color:rgb(181, 180, 178) ;">About Us</li>
+            <li>Informotion</li>
+            <li>download CV</li>
+        </ul>
+        <ul>
+            <li style="color:rgb(143, 142, 142) ;">Skills</li>
+            <li>Technical skills</li>
+            <li>My professional-skills</li>
+        </ul>
+        <ul>
+            <li style="color:rgb(149, 149, 149) ;">Services</li>
+            <li>Web Development</li>
+            <li>Web Design</li>
+            <li>Programming</li>
+    
+        </ul>
+        <ul>
+            <li style="color:rgb(159, 158, 157) ;">Education</li>
+            <li>Education</li>
+            <li>internship</li>
+    
+        </ul>
+    </div>
+            
+        <div class="social1" style="margin-top:50px; padding-left: 30%;width:100% ;">
             <a href="https://www.facebook.com/sunera.sudaraka.1" target="_blank" ><i class="fa-brands fa-facebook"></i></a>
             <a href="https://twitter.com/Sunera53928182?s=09" target="_blank"><i class="fa-brands fa-twitter"></i></a>
              <a href="https://instagram.com/sunera_sudaraka?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
@@ -434,7 +477,7 @@ nav ul li a:hover{
          </div>
         
         </footer>
-    
+      
       
 </body>
 </html>
